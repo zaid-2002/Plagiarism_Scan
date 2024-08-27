@@ -11,7 +11,7 @@ This application is designed to detect plagiarism in Word (.docx), PDF (.pdf), a
 
 - **Multi-File Mode:**
 
-  ![image](https://github.com/user-attachments/assets/ce35701f-ba6e-474d-ba87-4890c406d862)
+  ![image](https://github.com/user-attachments/assets/1ff5b0a3-64ca-478d-bab8-a7d5dd9786a0)
   - In this mode, the application checks multiple source files against multiple target files. For example, if the source files contain `File1.docx` and the target files contain `File2.docx` and `File3.docx`, the application will check `File1.docx` against both `File2.docx` and `File3.docx`. The results will be compiled into an Excel file, showing the percentage of plagiarism between `File1.docx` and each of the target files.
   - Result example
 
