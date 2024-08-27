@@ -6,12 +6,12 @@ This application is designed to detect plagiarism in Word (.docx), PDF (.pdf), a
 
 - **One-to-One Mode:**
 
-  ![image](https://github.com/user-attachments/assets/c2dbc489-90d8-495b-9fad-d72dd56046e9)
+  ![image](https://github.com/user-attachments/assets/0cc1547d-5c3d-44d3-adbd-e4ad7961e79a)
   - This mode checks plagiarism between a source file and a target file. The result will be a copy of the source file, where any text found to be plagiarized from the target file will be highlighted.
 
 - **Multi-File Mode:**
 
-  ![image](https://github.com/user-attachments/assets/b08645f4-2b2b-41d7-a825-757e65f90181)
+  ![image](https://github.com/user-attachments/assets/ce35701f-ba6e-474d-ba87-4890c406d862)
   - In this mode, the application checks multiple source files against multiple target files. For example, if the source files contain `File1.docx` and the target files contain `File2.docx` and `File3.docx`, the application will check `File1.docx` against both `File2.docx` and `File3.docx`. The results will be compiled into an Excel file, showing the percentage of plagiarism between `File1.docx` and each of the target files.
   - Result example
 
@@ -19,7 +19,7 @@ This application is designed to detect plagiarism in Word (.docx), PDF (.pdf), a
 
 - **Cross-File Mode:**
 
-  ![image](https://github.com/user-attachments/assets/a8262c7a-50bb-4a63-8a98-b02be87c40c9)
+  ![image](https://github.com/user-attachments/assets/7027f302-4b48-4935-980f-de3a1ced5cce)
   - This mode performs cross-checks among all selected files, generating an Excel report similar to the one produced in Multi-File Mode. Each file will be checked against the others, providing a comprehensive overview of potential plagiarism within the group of files.
   - Result example
 
